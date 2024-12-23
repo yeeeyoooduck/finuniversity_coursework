@@ -1,0 +1,98 @@
+/* NoirPro-Medium */
+@font-face {
+    font-family: 'NoirPro';
+    src: url('../assets/fonts/NoirPro-Medium.woff2') format('woff2'),
+    url('../assets/fonts/NoirPro-Medium.woff') format('woff'),
+    url('../assets/fonts/NoirPro-Medium.ttf') format('truetype'),
+    url('../assets/fonts/NoirPro-Medium.eot');
+    font-weight: 500;
+    font-style: normal;
+}
+
+/* NoirPro-MediumItalic */
+@font-face {
+    font-family: 'NoirPro';
+    src: url('../assets/fonts/NoirPro-MediumItalic.woff2') format('woff2'),
+    url('../assets/fonts/NoirPro-MediumItalic.woff') format('woff'),
+    url('../assets/fonts/NoirPro-MediumItalic.ttf') format('truetype'),
+    url('../assets/fonts/NoirPro-MediumItalic.eot');
+    font-weight: 500;
+    font-style: italic;
+}
+
+/* NoirPro-Regular */
+@font-face {
+    font-family: 'NoirPro';
+    src: url('../assets/fonts/NoirPro-Regular.woff2') format('woff2'),
+    url('../assets/fonts/NoirPro-Regular.woff') format('woff'),
+    url('../assets/fonts/NoirPro-Regular.ttf') format('truetype'),
+    url('../assets/fonts/NoirPro-Regular.eot');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* NoirPro-SemiBoldItalic */
+@font-face {
+    font-family: 'NoirPro';
+    src: url('../assets/fonts/NoirPro-SemiBoldItalic.woff2') format('woff2'),
+    url('../assets/fonts/NoirPro-SemiBoldItalic.woff') format('woff'),
+    url('../assets/fonts/NoirPro-SemiBoldItalic.ttf') format('truetype'),
+    url('../assets/fonts/NoirPro-SemiBoldItalic.eot');
+    font-weight: 600;
+    font-style: italic;
+}
+
+/* NoirPro-Bold */
+@font-face {
+    font-family: 'NoirPro';
+    src: url('../assets/fonts/NoirPro-Bold.woff2') format('woff2'),
+    url('../assets/fonts/NoirPro-Bold.woff') format('woff'),
+    url('../assets/fonts/NoirPro-Bold.ttf') format('truetype'),
+    url('../assets/fonts/NoirPro-Bold.eot'); /* eot для старых браузеров */
+    font-weight: bold;
+    font-style: normal;
+}
+
+/* NoirPro-BoldItalic */
+@font-face {
+    font-family: 'NoirPro';
+    src: url('../assets/fonts/NoirPro-BoldItalic.woff2') format('woff2'),
+    url('../assets/fonts/NoirPro-BoldItalic.woff') format('woff'),
+    url('../assets/fonts/NoirPro-BoldItalic.ttf') format('truetype'),
+    url('../assets/fonts/NoirPro-BoldItalic.eot');
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* NoirPro-Heavy */
+@font-face {
+    font-family: 'NoirPro';
+    src: url('../assets/fonts/NoirPro-Heavy.woff2') format('woff2'),
+    url('../assets/fonts/NoirPro-Heavy.woff') format('woff'),
+    url('../assets/fonts/NoirPro-Heavy.ttf') format('truetype'),
+    url('../assets/fonts/NoirPro-Heavy.eot');
+    font-weight: 900;
+    font-style: normal;
+}
+
+/* NoirPro-Light */
+@font-face {
+    font-family: 'NoirPro';
+    src: url('../assets/fonts/NoirPro-Light.woff2') format('woff2'),
+    url('../assets/fonts/NoirPro-Light.woff') format('woff'),
+    url('../assets/fonts/NoirPro-Light.ttf') format('truetype'),
+    url('../assets/fonts/NoirPro-Light.eot');
+    font-weight: 300;
+    font-style: normal;
+}
+
+/* NoirPro-Italic */
+@font-face {
+    font-family: 'NoirPro';
+    src: url('../assets/fonts/NoirPro-Italic.woff2') format('woff2'),
+    url('../assets/fonts/NoirPro-Italic.woff') format('woff'),
+    url('../assets/fonts/NoirPro-Italic.ttf') format('truetype'),
+    url('../assets/fonts/NoirPro-Italic.eot');
+    font-weight: normal;
+    font-style: italic;
+}

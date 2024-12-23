@@ -1,0 +1,111 @@
+/* Фон-шум */
+.login-noise {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 600px;
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    pointer-events: none; /* Фон не будет блокировать взаимодействие с формой */
+    transform: translate(-50%, -50%); /* Центрирование */
+    opacity: 0.1;
+    z-index: 1;
+}
+
+/* Контейнер для выравнивания формы по центру */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    position: relative; /* Для размещения слоя с шумом */
+    overflow: hidden; /* Обрезает лишние части шума */
+}
+
+/* Основной блок */
+.login-box {
+    background: #1a1a1a;
+    padding: 80px 130px;
+    border-radius: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 600px;
+    height: 600px;
+    position: relative; /* Для добавления элементов поверх, если нужно */
+}
+
+/* Аватар */
+.avatar-login {
+    position: relative;
+    width: 200px;
+    height: 175px;
+    margin: 0 auto 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+
+/* Поля ввода */
+input {
+    font-family: NoirPro, Arial, sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 15px 0 15px 20px;
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 25px;
+    border: 1px solid #DEDEDE;
+    color: #ffffff !important;
+    outline: none;
+    z-index: 2;
+    background-color: #1a1a1a !important;
+}
+
+input::placeholder {
+    color: #DEDEDE;
+    opacity: 50%;
+}
+
+/* Кнопка входа */
+button {
+    margin-top: 10px;
+    color: #ffffff !important;
+    font-family: NoirPro, Arial, sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    border-radius: 25px;
+    border: 1px solid #DEDEDE;
+    background-color: #1a1a1a; /* Начальный цвет фона */
+    width: 100%;
+    padding: 15px 0;
+    z-index: 2;
+    cursor: pointer;
+    transition: background-color 0.6s ease, box-shadow 0.6s ease;
+}
+
+button:hover {
+    background-color: #4caf50;
+    color: #ffffff;
+    box-shadow: 0 4px 15px rgba(76, 175, 80, 0.6);
+}
+
+button:active {
+    transform: scale(0.97);
+    box-shadow: 0 3px 10px rgba(76, 175, 80, 0.4);
+}
+
+.chat-image {
+    max-width: 200px;
+    max-height: 200px;
+    border-radius: 10px;
+    margin: 5px 0;
+}
+

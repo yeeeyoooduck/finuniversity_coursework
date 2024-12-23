@@ -1,0 +1,11 @@
+@import './fonts.css';
+@import './reset.css';
+
+
+html {
+    font-family: NoirPro-Regular, Arial, sans-serif;
+}
+
+body {
+    background: radial-gradient(circle, #ededed 0%, #e1e1e1 100%);
+}
